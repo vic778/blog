@@ -2,7 +2,7 @@
 
 > This application is a blog where anyone can access and create an article that will be commented by other users. the article can be edited or deleted. similarly, the comment can be deleted  and each article is linked to a comment through its Id. 
 
-![Demo](https://github.com/vic778/e-coomerce/blob/master/screen/demo.gif)
+![Demo](https://github.com/vic778/blog/blob/master/screen/demo.gif)
 
 This API is made of three models:
 - Post model
