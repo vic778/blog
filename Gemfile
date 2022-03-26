@@ -44,6 +44,7 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+gem 'scss_lint', '~> 0.59.0'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -53,9 +54,6 @@ gem 'better_errors', '~>2.4'
 
 # bulma css
 gem 'bulma-rails', '~> 0.9.3'
-
-# simple form
-gem 'simple_form', '~> 5.1'
 
 
 group :development, :test do
@@ -77,7 +75,10 @@ group :development do
   gem 'guard', '~> 2.18'
 
   # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', require: false
+
+  # simple form
+  gem 'simple_form', '~> 5.1'
 end
 
 group :test do
