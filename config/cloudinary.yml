@@ -1,0 +1,12 @@
+development:
+  cloud_name: full-stack-web
+  api_key: '893546862154776'
+  api_secret: Oko75CZQLY6h26gRTpGF1AawQlc
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: full-stack-web
+  api_key: '893546862154776'
+  api_secret: Oko75CZQLY6h26gRTpGF1AawQlc
+  enhance_image_tag: true
+  static_file_support: true

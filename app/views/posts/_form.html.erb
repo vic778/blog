@@ -11,6 +11,14 @@
         <%= f.input :content, input_html: {class: 'textarea'}, wrapper: false, label_html: {class: 'label'} %>
     </div>
   </div>
+
+    <label class="file-label">
+      <%= f.input :image, as: :file, input_html: { class:"file-input post-image" }, label: false, wrapper: false %>
+       <span class="file-cta">
+          <span class="file-icon"><i class="fa fa-upload"></i></span>
+            <span class="file-label">Choose a file…</span>
+       </span>
+      </label>
   <%= f.button :submit, class: "button is-primary" %>
 
   <% end %>
