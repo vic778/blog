@@ -12,6 +12,8 @@ gem "sprockets-rails"
 # Use pg as the database for Active Record
 gem 'pg', '~> 1.3', '>= 1.3.4'
 
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -26,6 +28,9 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
+gem 'carrierwave'
+gem 'cloudinary'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -87,3 +92,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem 'activeadmin'
+
